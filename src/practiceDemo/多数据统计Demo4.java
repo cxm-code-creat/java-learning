@@ -69,7 +69,9 @@ public class 多数据统计Demo4 {
         }
         System.out.println("得票数最多的候选人是："+(maxIndex));
     }
+//    定义的这个count就是count[i];因为getRate（count[i]）中小括号里的值就是count
     public static String getRate(int count){
         return (count/1000.0)*100+"%";
     }
+
 }
